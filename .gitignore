@@ -1,0 +1,10 @@
+parquet-example
+parquet-example2
+delta-example
+.ipynb_checkpoints
+.bloop
+.metals
+target
+project/project
+project/target
+project/metals.sbt
