@@ -21,9 +21,10 @@ rm -f almond-scala-2.12
 
 ./coursier fetch dev.zio:zio:1.0.0-RC18-2
 ./coursier fetch dev.zio:zio-test:1.0.0-RC18-2
+./coursier fetch io.prometheus:simpleclient:0.8.1
+./coursier fetch io.prometheus:simpleclient_common:0.8.1
+./coursier fetch org.typelevel:cats-effect:2.0.0
 ./coursier fetch sh.almond:almond_2.12:0.9.1
-./coursier fetch io.circe:circe-parser_2.12:0.12.3
-./coursier fetch com.lihaoyi:os-lib_2.12:0.2.7
 ./coursier fetch --sources dev.zio:zio:1.0.0-RC18-2
 ./coursier fetch --sources sh.almond:almond-spark_2.12:0.9.1
 
